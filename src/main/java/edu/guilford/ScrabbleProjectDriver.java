@@ -1,6 +1,7 @@
 package edu.guilford;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class ScrabbleProjectDriver {
@@ -27,8 +28,11 @@ public class ScrabbleProjectDriver {
         String highScoreWordRandom = "";
         int highScoreRandom = 0;
 
+        String invalidWordEN = "";
+        String invalidWordRandom = "";
+
         try {
-            File file = new File("frankenstein.txt");
+            File file = new File("src/main/resources/frankenstein.txt");
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNext()) {
@@ -41,6 +45,28 @@ public class ScrabbleProjectDriver {
                     highScoreRandom = ScrabbleSetRandom.evaluateWord(word);
                     highScoreWordRandom = word;
                 }
+
+                if (ScrabbleSetEN.evaluateWord(word) == -1) {
+                    if (word.matches(".*\\d.*") == false && word.matches(".*[^a-zA-Z0-9].*") == false) {
+                        if (invalidWordEN == "") {
+                            invalidWordEN = word;
+                        }
+                        else if (word.length() < invalidWordEN.length()) {
+                            invalidWordEN = word;
+                        }
+                    }
+                }
+
+                if (ScrabbleSetRandom.evaluateWord(word) == -1) {
+                    if (word.matches(".*\\d.*") == false && word.matches(".*[^a-zA-Z0-9].*") == false) {
+                        if (invalidWordRandom == "") {
+                            invalidWordRandom = word;
+                        }
+                        else if (word.length() < invalidWordRandom.length()) {
+                            invalidWordRandom = word;
+                        }
+                    }
+                }
             }
 
             scanner.close();
@@ -50,6 +76,9 @@ public class ScrabbleProjectDriver {
         }
 
         System.out.println("Highest Scoring Word: " + highScoreWordEN + " Score: " + highScoreEN);
+        System.out.println("Highest Scoring Word: " + highScoreWordRandom + " Score: " + highScoreRandom);
+        System.out.println("Invalid Word: " + invalidWordEN);
+        System.out.println("Invalid Word: " + invalidWordRandom);
 
         Scanner scanner = new Scanner(System.in);
         String userWord = "";
