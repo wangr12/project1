@@ -1,0 +1,89 @@
+TileInfo [tile=A(1), tileCount=9]
+TileInfo [tile=B(3), tileCount=2]
+TileInfo [tile=C(3), tileCount=2]
+TileInfo [tile=D(2), tileCount=4]
+TileInfo [tile=E(1), tileCount=12]
+TileInfo [tile=F(4), tileCount=2]
+TileInfo [tile=G(2), tileCount=3]
+TileInfo [tile=H(4), tileCount=2]
+TileInfo [tile=I(1), tileCount=9]
+TileInfo [tile=J(8), tileCount=1]
+TileInfo [tile=K(5), tileCount=1]
+TileInfo [tile=L(1), tileCount=4]
+TileInfo [tile=M(3), tileCount=2]
+TileInfo [tile=N(1), tileCount=6]
+TileInfo [tile=O(1), tileCount=8]
+TileInfo [tile=P(3), tileCount=2]
+TileInfo [tile=Q(10), tileCount=1]
+TileInfo [tile=R(1), tileCount=6]
+TileInfo [tile=S(1), tileCount=4]
+TileInfo [tile=T(1), tileCount=6]
+TileInfo [tile=U(1), tileCount=4]
+TileInfo [tile=V(4), tileCount=2]
+TileInfo [tile=W(4), tileCount=2]
+TileInfo [tile=X(8), tileCount=1]
+TileInfo [tile=Y(4), tileCount=2]
+TileInfo [tile=Z(10), tileCount=1]
+TileInfo [tile= (0), tileCount=2]
+
+TileInfo [tile=A(1), tileCount=5]
+TileInfo [tile=B(3), tileCount=2]
+TileInfo [tile=C(3), tileCount=5]
+TileInfo [tile=D(2), tileCount=6]
+TileInfo [tile=E(1), tileCount=3]
+TileInfo [tile=F(4), tileCount=2]
+TileInfo [tile=G(2), tileCount=3]
+TileInfo [tile=H(4), tileCount=10]
+TileInfo [tile=I(1), tileCount=6]
+TileInfo [tile=J(8), tileCount=4]
+TileInfo [tile=K(5), tileCount=2]
+TileInfo [tile=L(1), tileCount=2]
+TileInfo [tile=M(3), tileCount=7]
+TileInfo [tile=N(1), tileCount=5]
+TileInfo [tile=O(1), tileCount=4]
+TileInfo [tile=P(3), tileCount=2]
+TileInfo [tile=Q(10), tileCount=3]
+TileInfo [tile=R(1), tileCount=2]
+TileInfo [tile=S(1), tileCount=2]
+TileInfo [tile=T(1), tileCount=4]
+TileInfo [tile=U(1), tileCount=3]
+TileInfo [tile=V(4), tileCount=2]
+TileInfo [tile=W(4), tileCount=3]
+TileInfo [tile=X(8), tileCount=3]
+TileInfo [tile=Y(4), tileCount=3]
+TileInfo [tile=Z(10), tileCount=3]
+TileInfo [tile= (0), tileCount=4]
+
+Word: harmony Score: 15
+Word: glacier Score: 10
+Word: Nebula Score: 8
+Word: Whisker Score: 17
+Word: LANTERN Score: 7
+Word: PONDER Score: 9
+Word: Fiddle Score: 11
+Word: Orbit Score: 7
+Word: Canvas Score: 11
+Word: Melody Score: 12
+Word: Rustic Score: 8
+Word: Whisper Score: 15
+Word: Zephyr Score: 23
+Word: Fractal Score: 12
+Word: Blossom Score: 11
+Word: Quantum Score: 18
+Word: Lush Score: 7
+Word: Euphoria Score: 13
+Word: Wander Score: 10
+Word: Twilight Score: 15
+Word: Phoenix Score: 19
+Word: Echo Score: 9
+Word: Harbor Score: 11
+Word: w93840 Score: -1
+Word: $$$ Score: -1
+Highest Scoring Word: exquisitely Score: 30
+Highest Scoring Word: exquisitely Score: 30
+Invalid Word: dizzy
+Invalid Word: Swiss
+Enter a word. Type 'exit' to exit: word
+Standard Scrabble Set: 8
+Random Scrabble Set: 8
+Enter a word. Type 'exit' to exit: exit

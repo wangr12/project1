@@ -25,6 +25,6 @@ public class Tile {
 
     @Override
     public String toString() {
-        return "Tile [letter=" + letter + ", value=" + value + "]";
+        return "" + letter + "(" + value + ")";
     }
 }

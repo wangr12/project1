@@ -9,7 +9,9 @@ public class ScrabbleProjectDriver {
         ScrabbleSet ScrabbleSetEN = new ScrabbleSet("English");
         ScrabbleSet ScrabbleSetRandom = new ScrabbleSet();
 
+        System.out.println("Standard Scrabble Set: ");
         System.out.println(ScrabbleSetEN);
+        System.out.println("Random Scrabble Set: ");
         System.out.println(ScrabbleSetRandom);
 
         String[] words = {
